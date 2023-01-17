@@ -1,0 +1,60 @@
+{
+    "key": "JiraToGIT",
+    "name": "Jira To GIT",
+    "description": "Connect jira to git",
+    "baseUrl": "{{localBaseUrl}}",
+    "authentication": {
+        "type": "jwt"
+    },
+    "lifecycle": {
+        "installed": "/installed"
+    },
+    "scopes": [
+        "ADMIN",
+        "READ",
+        "WRITE"
+    ],
+    "apiMigrations":{
+        "signed-install": true
+    },
+    "modules": {
+        "generalPages": [
+            {
+                "key": "hello-world-page-jira",
+                "location": "system.top.navigation.bar",
+                "name": {
+                    "value": "Hello World"
+                },
+                "url": "/hello-world",
+                "conditions": [{
+                    "condition": "user_is_logged_in"
+                }]
+            }
+        ],
+        "jiraIssueGlances": [
+            {
+              "icon": {
+                "width": 0,
+                "height": 0,
+                "url": "my_icon.svg"
+              },
+              "content": {
+                "type": "label",
+                "label": {
+                  "value": "Git info"
+                }
+              },
+              "target": {
+                "type": "web_panel",
+                "url": "/GitInfo?issuetype={issuetype.id}"
+              },
+              "jiraNativeAppsEnabled": false,
+              "name": {
+                "value": "Git Info "
+              },
+              "key": "GitInfo"
+            }
+          ]
+      
+    }
+}
