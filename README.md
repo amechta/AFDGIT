@@ -13,4 +13,4 @@ See all branches: https://bitbucket.org/atlassian/atlassian-connect-express-temp
 
 `master` branch is for products jira, jira-service-desk, and confluence; `bitbucket` branch is for product bitbucket. When updating `master`, please also update `bitbucket` if neccessary.
 
-The branches will be downloaded by: https://bitbucket.org/atlassian/atlas-connect
+The branches will be downloaded by: https://bitbucket.org/atlassian/atlas-connect# AFD2GIT
