@@ -1,0 +1,62 @@
+ Recuperer les notifications de un utilisateur par son login;src/test/resources/features/notification/read/GetNotificationByLogin.feature;GetNotificationByLogin.feature
+ Creation de un collaborateur;src/test/resources/features/collab/create/CreateCollabTest.feature;CreateCollabTest.feature
+ Creation de un collaborateur deja present;src/test/resources/features/collab/create/CreateCollabTwiceTest.feature;CreateCollabTwiceTest.feature
+ Suppression de une notification par un utilisateur;src/test/resources/features/notification/delete/DeleteSingleUserNotification.feature;DeleteSingleUserNotification.feature
+ Creer un evenement date fin avant date debut;src/test/resources/features/event/create/DoNotCreateEventWithEndDateBeforeStartDate.feature;DoNotCreateEventWithEndDateBeforeStartDate.feature
+ Creation de un evenement;src/test/resources/features/event/create/CreateEventTest.feature;CreateEventTest.feature
+ Suppression des notifications de l'utilisateur;src/test/resources/features/notification/delete/DeleteAllUserNotification.feature;DeleteAllUserNotification.feature
+ Recuperer un evenement par son importance (flag);src/test/resources/features/event/read/readEventByFlag/GetEventByFlag.feature;GetEventByFlag.feature
+ Recuperer un evenement par sa region;src/test/resources/features/event/read/readByRegion/GetEventByRegion.feature;GetEventByRegion.feature
+ Inscription de un participant deux fois a un evenement;src/test/resources/features/event/update/updateAttendees/ParticipateEventTwice_KO.feature;ParticipateEventTwice_KO.feature
+ Recuperer un evenement inconnu par son identifiant;src/test/resources/features/event/read/readById/GetUnknownEventById.feature;GetUnknownEventById.feature
+ Modifier la categorie de un evenement a valider ou valide;src/test/resources/features/event/update/updateCategory/UpdateEventCategoryToValidateOrValidated.feature;UpdateEventCategoryToValidateOrValidated.feature
+ Recuperer un evenement par son identifiant;src/test/resources/features/event/read/readById/GetEventByIdTest.feature;GetEventByIdTest.feature
+ Modifier la categorie de un evenement inconnu;src/test/resources/features/event/update/updateCategory/UpdateCategoryUnknownEvent.feature;UpdateCategoryUnknownEvent.feature
+ Supression d'un event;src/test/resources/features/event/delete/deleteEvent/DeleteEvent.feature;DeleteEvent.feature
+ Modifier la categorie de un evenement en cours ou passe ou reporte;src/test/resources/features/event/update/updateCategory/UpdateEventCategoryPastPostponedOrInProgress.feature;UpdateEventCategoryPastPostponedOrInProgress.feature
+ Recuperer un Utilisateur avec son login;src/test/resources/features/collab/read/readByLogin/GetCollabByLogin.feature;GetCollabByLogin.feature
+ Inscription de un participant a un evenement complet;src/test/resources/features/event/update/updateAttendees/ParticipateEventFull_KO.feature;ParticipateEventFull_KO.feature
+ Inscription de un participant a un evenement termine ou inconnu ou reporte;src/test/resources/features/event/update/updateAttendees/ParticipateEventFinishedOrUnknownedOrPostponed.feature;ParticipateEventFinishedOrUnknownedOrPostponed.feature
+ Recuperer un Utilisateur avec son LastName;src/test/resources/features/collab/read/readByLastName/GetCollabByLastName.feature;GetCollabByLastName.feature
+ Recuperer la liste des evenements;src/test/resources/features/event/read/readAll/GetEventList.feature;GetEventList.feature
+ Supprimer un organisateur de un evenement;src/test/resources/features/event/delete/deleteOrganizer/DeleteOrganizerFromEvent.feature;DeleteOrganizerFromEvent.feature
+ Supprimer un organisateur de un evenement inconnu;src/test/resources/features/event/delete/deleteOrganizer/DeleteOrganizerFromUnknowEvent.feature;DeleteOrganizerFromUnknowEvent.feature
+ Inscription de un participant;src/test/resources/features/event/update/updateAttendees/ParticipateEventTest.feature;ParticipateEventTest.feature
+ Inscription de un participant a un evenement non valide;src/test/resources/features/event/update/updateAttendees/ParticipateEventNotValidated_KO.feature;ParticipateEventNotValidated_KO.feature
+ Recuperer la liste des evenements n'en contenant aucun;src/test/resources/features/event/read/readAll/GetEventListHasNotContent.feature;GetEventListHasNotContent.feature
+ Supprimer une photo de un evenement incconnu;src/test/resources/features/event/delete/deletePhotoPostEvent/DeleteAPhotoFromAnUnknowEvent.feature;DeleteAPhotoFromAnUnknowEvent.feature
+ Ajouter un organisateur a un evenement inconnu;src/test/resources/features/event/update/updateOrganizers/AddAnOrganizerToAnUnknowEvent.feature;AddAnOrganizerToAnUnknowEvent.feature
+ Supprimer un organisateur de un evenement en cours ou passe ou reporte;src/test/resources/features/event/delete/deleteOrganizer/DeleteOrganizerFromEventInProgressPastOrPostponed.feature;DeleteOrganizerFromEventInProgressPastOrPostponed.feature
+ Modifier le flag de un evenement;src/test/resources/features/event/update/updateFlag/UpdateFlagOfEvent.feature;UpdateFlagOfEvent.feature
+ Modifier la categorie de un evenement;src/test/resources/features/event/update/updateCategory/UpdateCategoryEvent.feature;UpdateCategoryEvent.feature
+ Modifier le flag de un evenement passe ou reporte ou inconnu;src/test/resources/features/event/update/updateFlag/UpdateFlagInUnknowOrReportedOrFinishedEvent.feature;UpdateFlagInUnknowOrReportedOrFinishedEvent.feature
+ Modifier le flag de un evenement a valider;src/test/resources/features/event/update/updateFlag/UpdateFlagOfEventToValidate.feature;UpdateFlagOfEventToValidate.feature
+ Ajouter une photo a un evenement non terminC) ou non en cours;src/test/resources/features/event/update/updateAddPhoto/AddPhotoPostEventWithStateNotFinishedAndNotInProgress.feature;AddPhotoPostEventWithStateNotFinishedAndNotInProgress.feature
+ Modifier le etat de un evenement;src/test/resources/features/event/update/updateState/UpdateStateEntity.feature;UpdateStateEntity.feature
+ Supprimer une photo de un evenement en cours ou passe;src/test/resources/features/event/delete/deletePhotoPostEvent/DeletePhotoFromEventInProgessOrPast.feature;DeletePhotoFromEventInProgessOrPast.feature
+ Supprimer une photo inconnue de un evenement;src/test/resources/features/event/delete/deletePhotoPostEvent/DeleteAnUnknowPhotoFromEvent.feature;DeleteAnUnknowPhotoFromEvent.feature
+ Supprimer un participant de un Evenement sans se etre inscrit;src/test/resources/features/event/delete/deleteAttendee/DeleteParticipantEventNotParticipate.feature;DeleteParticipantEventNotParticipate.feature
+ Ajouter une photo a un evenement;src/test/resources/features/event/update/updateAddPhoto/AddPhotoPostEvent_fix.feature;AddPhotoPostEvent_fix.feature
+ Ajouter un organisateur a un evenement;src/test/resources/features/event/update/updateOrganizers/AddOrganizerToEvent.feature;AddOrganizerToEvent.feature
+ Modifier la region de un evenement en cours ou passe ou reporte;src/test/resources/features/event/update/updateRegion/PutRegionInEventOver.feature;PutRegionInEventOver.feature
+ Modifier la region de un evenement inconnu;src/test/resources/features/event/update/updateRegion/PutRegionInUnknownEvent.feature;PutRegionInUnknownEvent.feature
+ Recuperer un evenement par son etat de publication;src/test/resources/features/event/read/readByPublicationState/GetEventByPublicationState.feature;GetEventByPublicationState.feature
+ Ajouter une photo a un evenement;src/test/resources/features/event/update/updateAddPhoto/AddPhotoPostEvent.feature;AddPhotoPostEvent.feature
+ Modifier le etat de publication de un evenement;src/test/resources/features/event/update/updatePublicationState/UpdatePublicationStateEvent.feature;UpdatePublicationStateEvent.feature
+ Modifier le etat de publication de un evenement de maniere impossible;src/test/resources/features/event/update/updatePublicationState/UpdatePublicationStateEventImpossible.feature;UpdatePublicationStateEventImpossible.feature
+ Supprimer un organisateur de un evenement qui ne en contient que un;src/test/resources/features/event/delete/deleteOrganizer/DeleteOrganizerFromEventWhereThereIsOnlyOneOrganizer.feature;DeleteOrganizerFromEventWhereThereIsOnlyOneOrganizer.feature
+ Supprimer une photo d'un evenement sans avoir les droits;src/test/resources/features/event/delete/deletePhotoPostEvent/DoNotDeleteAPictureWithoutRights.feature;DoNotDeleteAPictureWithoutRights.feature
+ Supprimer un participant de un Evenement pas commence;src/test/resources/features/event/delete/deleteAttendee/DeleteParticipantEventNotStart.feature;DeleteParticipantEventNotStart.feature
+ Ajouter un organisateur a un evenement en cours ou passe ou reporte;src/test/resources/features/event/update/updateOrganizers/AddAnOrganizerToAnEventPastPostponedOrInProgress.feature;AddAnOrganizerToAnEventPastPostponedOrInProgress.feature
+ Modifier la region de un evenement;src/test/resources/features/event/update/updateRegion/PutRegionInEvent.feature;PutRegionInEvent.feature
+ SupprimC) une photo post event d'un evenement;src/test/resources/features/event/delete/deletePhotoPostEvent/DeletePhotoPostEventFromEvent.feature;DeletePhotoPostEventFromEvent.feature
+ Supprimer un participant de un Evenement en cours ou passe ou reporte ou inconnu;src/test/resources/features/event/delete/deleteAttendee/DeleteParticipantEventInprogressPassReportUnknown.feature;DeleteParticipantEventInprogressPassReportUnknown.feature
+ Recuperer des Utilisateur avec leur Region;src/test/resources/features/collab/read/readByRegion/GetCollabByRegion.feature;GetCollabByRegion.feature
+ Modifier la region d'un Utilisateur;src/test/resources/features/collab/update/updateRegion/updateCollabRegion.feature;updateCollabRegion.feature
+ Modifier un evenement;src/test/resources/features/event/update/EditAnEvent/EditAnEvent.feature;EditAnEvent.feature
+ Modifier un evenement;src/test/resources/features/event/update/EditAnEvent/EditAnEvent_fix.feature;EditAnEvent_fix.feature
+ Un Utilisateur modifie ses informations;src/test/resources/features/collab/update/updateUser/updateUser.feature;updateUser.feature
+ Modifier la region d'un Utilisateur inconnu;src/test/resources/features/collab/update/updateRegion/updateCollabRegionUnknown.feature;updateCollabRegionUnknown.feature
+ Ajouter une photo a un evenement inconnu;src/test/resources/features/event/update/updateAddPhoto/AddPhotoPostEventUnknowEvent.feature;AddPhotoPostEventUnknowEvent.feature
+ Modifier le role d un utilisateur;src/test/resources/features/collab/update/updateRole/updateCollabRole.feature;updateCollabRole.feature
+ Modifier le role d un utilisateur;src/test/resources/features/collab/update/updateRole/updateCollabRoleKO.feature;updateCollabRoleKO.feature

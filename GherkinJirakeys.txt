@@ -1,0 +1,40 @@
+Modifier l'état d'un évènement ;MATE-446
+Notification au demarrage de le evenement NON-STAR.Feature;MATE-281
+CLONE - Récupérer les évènements par flag;MATE-263
+CLONE - KO: Modifier la catégorie d'un évènement en cours, terminé ou reporté;MATE-261
+CLONE - Modifier la catégorie d'un événement;MATE-259
+CLONE - Récupérer les évènements par région;MATE-256
+CLONE - Modifier la région d'un événement;MATE-254
+CLONE - Ajouter une réaction à un événement;MATE-252
+CLONE - KO: Modifier un évènement en cours ou terminé ou reporté;MATE-248
+CLONE - KO: Ajouter une réaction à un evenement non validé;MATE-246
+CLONE - KO: Ajouter une réaction à un événement inconnu;MATE-245
+CLONE - Supprimer un organisateur d'un événement;MATE-227
+CLONE - KO: S'inscrire à un événement non validé;MATE-226
+CLONE - Créer un événement;MATE-225
+CLONE - KO: Supprimer une photo inconnu d'un evenement;MATE-224
+CLONE - KO: Supprimer une photo d'un événement inconnu;MATE-223
+CLONE - Supprimer une photo d'un événement en cours ou terminé;MATE-222
+CLONE - Modifier la région d'un événement;MATE-221
+CLONE - KO:  Modifier la région d'un événement en cours ou terminé ou reporté;MATE-220
+CLONE - Récupérer l'ensemble des evenements;MATE-219
+CLONE - KO : Supprimer un organisateur d'un événement inconnu;MATE-218
+CLONE - KO: Supprimer un organisateur d'un évènement en cours ou passé ou reporté;MATE-217
+CLONE - Ajouter un organisateur à un évènement;MATE-216
+CLONE - KO : Ajouter un organisateur à un événement inconnu;MATE-215
+CLONE - KO: Modifier le flag d'un évènement inconnu ou terminé ou reporté;MATE-214
+CLONE - KO: Modifier la catégorie d'un événement à valider ou validé;MATE-213
+CLONE - KO: Ajouter un organisateur à un évènement en cours ou passé ou reporté;MATE-212
+CLONE - KO: Modifier la catégorie d'un evenement inconnu;MATE-211
+CLONE - KO: Récupérer un événement inexistant par identifant;MATE-210
+CLONE - KO: Creér un événement sans organisateur;MATE-207
+CLONE - KO: Supprimer un évènement inconnu;MATE-204
+CLONE - KO: Modifier un événement inconnu;MATE-203
+CLONE - KO: Modifier le flag d'un événement à valider;MATE-202
+CLONE - Modifier l'état de publication d'un événement;MATE-201
+CLONE - KO:  Modifier la région d'un événement inconnu;MATE-188
+Modifier un évènement;MATE-76
+KO: Récupérer une liste d'évènements si il n y a aucun évènement;MATE-63
+KO: Récupérer une photo d'un évènement pas commencé ou reporté;MATE-49
+Supprimer une photo d'un évènement en cours ou passé;MATE-48
+Récupérer une photo d'un évènement en cours ou terminé;MATE-45

@@ -1,0 +1,62 @@
+ Recuperer les notifications de un utilisateur par son login
+ Creation de un collaborateur
+ Creation de un collaborateur deja present
+ Suppression de une notification par un utilisateur
+ Creer un evenement date fin avant date debut
+ Creation de un evenement
+ Suppression des notifications de l'utilisateur
+ Recuperer un evenement par son importance (flag)
+ Recuperer un evenement par sa region
+ Inscription de un participant deux fois a un evenement
+ Recuperer un evenement inconnu par son identifiant
+ Modifier la categorie de un evenement a valider ou valide
+ Recuperer un evenement par son identifiant
+ Modifier la categorie de un evenement inconnu
+ Supression d'un event
+ Modifier la categorie de un evenement en cours ou passe ou reporte
+ Recuperer un Utilisateur avec son login
+ Inscription de un participant a un evenement complet
+ Inscription de un participant a un evenement termine ou inconnu ou reporte
+ Recuperer un Utilisateur avec son LastName
+ Recuperer la liste des evenements
+ Supprimer un organisateur de un evenement
+ Supprimer un organisateur de un evenement inconnu
+ Inscription de un participant
+ Inscription de un participant a un evenement non valide
+ Recuperer la liste des evenements n'en contenant aucun
+ Supprimer une photo de un evenement incconnu
+ Ajouter un organisateur a un evenement inconnu
+ Supprimer un organisateur de un evenement en cours ou passe ou reporte
+ Modifier le flag de un evenement
+ Modifier la categorie de un evenement
+ Modifier le flag de un evenement passe ou reporte ou inconnu
+ Modifier le flag de un evenement a valider
+ Ajouter une photo a un evenement non terminC) ou non en cours
+ Modifier le etat de un evenement
+ Supprimer une photo de un evenement en cours ou passe
+ Supprimer une photo inconnue de un evenement
+ Supprimer un participant de un Evenement sans se etre inscrit
+ Ajouter une photo a un evenement
+ Ajouter un organisateur a un evenement
+ Modifier la region de un evenement en cours ou passe ou reporte
+ Modifier la region de un evenement inconnu
+ Recuperer un evenement par son etat de publication
+ Ajouter une photo a un evenement
+ Modifier le etat de publication de un evenement
+ Modifier le etat de publication de un evenement de maniere impossible
+ Supprimer un organisateur de un evenement qui ne en contient que un
+ Supprimer une photo d'un evenement sans avoir les droits
+ Supprimer un participant de un Evenement pas commence
+ Ajouter un organisateur a un evenement en cours ou passe ou reporte
+ Modifier la region de un evenement
+ SupprimC) une photo post event d'un evenement
+ Supprimer un participant de un Evenement en cours ou passe ou reporte ou inconnu
+ Recuperer des Utilisateur avec leur Region
+ Modifier la region d'un Utilisateur
+ Modifier un evenement
+ Modifier un evenement
+ Un Utilisateur modifie ses informations
+ Modifier la region d'un Utilisateur inconnu
+ Ajouter une photo a un evenement inconnu
+ Modifier le role d un utilisateur
+ Modifier le role d un utilisateur

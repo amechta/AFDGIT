@@ -106,6 +106,7 @@ if(error){
 let buff = new Buffer(data.content,'Base64');
 let text = buff.toString('ascii');
 WriteTextOnFile(text,"Lastmodifiedfile.txt");
+
  AddJiraAttachements("Lastmodifiedfile.txt");
 
 console.log(text);
@@ -182,7 +183,7 @@ fs.writeFile('result.txt', data, (err) => {
     function GetChangedfilesfromlastcommit(lastcommitsha){
         const request = require('request');
     const apiEndpoint= "https://api.github.com/repos/dfrancesAfd/MATE_BACK/commits/dev?sha="+lastcommitsha;
-    const apiToken="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";
+    const apiToken="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";
     
     
     

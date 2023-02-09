@@ -14,12 +14,12 @@ function AddJiraAttachements(){
 
  form.append('file', fileStream, {knownLength: fileSizeInBytes});
 
- fetch('https://afd-dev.atlassian.net/rest/api/3/issue/DT-65/attachments', {
+ fetch('https://afd-git-dev.atlassian.net/rest/api/3/issue/DT-65/attachments', {
      method: 'POST',
      body: form,
      headers: {
          'Authorization': `Basic ${Buffer.from(
-         'amechta@afdtech.com:GR6Ktple3oZDokZ8d62J9604'
+         'amechta@afdtech.com:4QkgemNJZma5Lo7ClJ3LA7CD'
          ).toString('base64')}`,
          'Accept': 'application/json',
          'X-Atlassian-Token': 'no-check'

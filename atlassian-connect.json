@@ -54,7 +54,68 @@
               },
               "key": "GitInfo"
             }
-          ]
+          ],
+          "webItems": [
+
+              {
+        
+                "location": "jira.issue.tools",
+        
+                "weight": 0,
+        
+                "styleClasses": [
+        
+                  "webitem",
+        
+                  "system-present-webitem"
+        
+                ],
+        
+                "url": "/Git-WebItem?issueid={issue.key}&issuetype={issuetype.id}",
+        
+                "context": "addon",
+        
+                "target": {
+
+                  "type": "dialog",
+              
+                  "options": {
+              
+                    "height": "0px",
+              
+                    "width": "0px"
+              
+                  }
+                 } ,
+        
+                "tooltip": {
+        
+                  "value": "Example tooltip"
+        
+                },
+        
+                "icon": {
+        
+                  "width": 0,
+        
+                  "height": 0,
+        
+                  "url": "/maps/icon.png"
+        
+                },
+        
+                "name": {
+        
+                  "value": "Synchronisation GIT"
+        
+                },
+        
+                "key": "web-item-Git"
+        
+              }
+        
+            ]
+
       
     }
 }

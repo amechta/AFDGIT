@@ -1,5 +1,7 @@
 import jira from './Functions/Jira/JiraFunctions';
-import git from './Functions/Git/GitFunctions'
+import git from './Functions/Git/GitFunctions';
+import sync from './Functions/synchro/sync';
+
 export default  function routes(app, addon) {
     // Redirect root path to /atlassian-connect.json,
     // which will be served by atlassian-connect-express.
@@ -46,7 +48,68 @@ export default  function routes(app, addon) {
           }
         );
     });
+    app.get('/GitBranchOld', addon.authenticate(), async (req, res) => {
+      
+      const currentissueId = req.query.issueid;
+      console.log("the issueid is "+currentissueId);
 
- 
+      sync.GetInfoGitFromJira(currentissueId);
+      //sync.UpdateJiraDescription(currentissueId);
+
+
+        res.render(
+          'gitBranch.hbs', // change this to 'hello-world.jsx' to use the Atlaskit & React version
+          {
+            title: 'Atlassian Connect',
+            issueId: currentissueId
+          }
+        );
+    });
+
+    
+    app.get('/Git-WebItem', addon.authenticate(), async (req, res) => {
+      /*
+      let currentissueId = req.query.issueid;
+      const currentissueType = req.query.issuetype;
+      
+      console.log("the issueid is "+currentissueId);
+      if(currentissueType == 10047){
+        sync.GetInfoGitFromJira(currentissueId);} 
+      else{ console.log("the issuetype is not the one we need"+currentissueType);
+      currentissueId = "Not a gherkin";
+    } 
+      */ 
+    const fs = require('fs')
+
+    const path = './gherkintitle.txt'
+    
+    try {
+      //sync.Getpullrequestslist();
+      //sync.GetUpdatedGherkinsInProgress();
+      //sync.CheckBranchandcommitchange("dev");
+      if (fs.existsSync(path)) {
+        //sync.GitJiraCompare();
+      }else{
+        //sync.GetDirectorycontent("src/test/resources/features");
+        //sync.GetGherkinsInProgress();
+      } 
+    } catch(err) {
+      console.error(err)
+    }
+    
+    
+    
+    
+      //sync.UpdateJiraDescription(currentissueId);
+
+
+        res.render(
+          'gitBranch.hbs', // change this to 'hello-world.jsx' to use the Atlaskit & React version
+          {
+            title: 'Atlassian Connect'
+            //issueId: currentissueId
+          }
+        );
+    });
     // Add additional route handlers here...
 }

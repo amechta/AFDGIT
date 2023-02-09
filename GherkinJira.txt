@@ -1,0 +1,40 @@
+Modifier l'état d'un évènement 
+Notification au demarrage de le evenement NON-STAR.Feature
+CLONE - Récupérer les évènements par flag
+CLONE - KO: Modifier la catégorie d'un évènement en cours, terminé ou reporté
+CLONE - Modifier la catégorie d'un événement
+CLONE - Récupérer les évènements par région
+CLONE - Modifier la région d'un événement
+CLONE - Ajouter une réaction à un événement
+CLONE - KO: Modifier un évènement en cours ou terminé ou reporté
+CLONE - KO: Ajouter une réaction à un evenement non validé
+CLONE - KO: Ajouter une réaction à un événement inconnu
+CLONE - Supprimer un organisateur d'un événement
+CLONE - KO: S'inscrire à un événement non validé
+CLONE - Créer un événement
+CLONE - KO: Supprimer une photo inconnu d'un evenement
+CLONE - KO: Supprimer une photo d'un événement inconnu
+CLONE - Supprimer une photo d'un événement en cours ou terminé
+CLONE - Modifier la région d'un événement
+CLONE - KO:  Modifier la région d'un événement en cours ou terminé ou reporté
+CLONE - Récupérer l'ensemble des evenements
+CLONE - KO : Supprimer un organisateur d'un événement inconnu
+CLONE - KO: Supprimer un organisateur d'un évènement en cours ou passé ou reporté
+CLONE - Ajouter un organisateur à un évènement
+CLONE - KO : Ajouter un organisateur à un événement inconnu
+CLONE - KO: Modifier le flag d'un évènement inconnu ou terminé ou reporté
+CLONE - KO: Modifier la catégorie d'un événement à valider ou validé
+CLONE - KO: Ajouter un organisateur à un évènement en cours ou passé ou reporté
+CLONE - KO: Modifier la catégorie d'un evenement inconnu
+CLONE - KO: Récupérer un événement inexistant par identifant
+CLONE - KO: Creér un événement sans organisateur
+CLONE - KO: Supprimer un évènement inconnu
+CLONE - KO: Modifier un événement inconnu
+CLONE - KO: Modifier le flag d'un événement à valider
+CLONE - Modifier l'état de publication d'un événement
+CLONE - KO:  Modifier la région d'un événement inconnu
+Modifier un évènement
+KO: Récupérer une liste d'évènements si il n y a aucun évènement
+KO: Récupérer une photo d'un évènement pas commencé ou reporté
+Supprimer une photo d'un évènement en cours ou passé
+Récupérer une photo d'un évènement en cours ou terminé
